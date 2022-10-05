@@ -42,11 +42,11 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(388, 24);
+            this.button1.Location = new System.Drawing.Point(393, 87);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(161, 44);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Elegir imagen";
+            this.button1.Text = "Salir";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -79,12 +79,13 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(388, 74);
+            this.button2.Location = new System.Drawing.Point(393, 27);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(161, 40);
             this.button2.TabIndex = 4;
-            this.button2.Text = "Salir";
+            this.button2.Text = "Elegir imagen";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // linkLabel1
             // 
@@ -95,6 +96,7 @@
             this.linkLabel1.TabIndex = 5;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Abrir  calculadora ";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // linkLabel2
             // 
@@ -105,6 +107,7 @@
             this.linkLabel2.TabIndex = 6;
             this.linkLabel2.TabStop = true;
             this.linkLabel2.Text = "www.ucol.mx";
+            this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
             // linkLabel3
             // 
@@ -115,6 +118,7 @@
             this.linkLabel3.TabIndex = 7;
             this.linkLabel3.TabStop = true;
             this.linkLabel3.Text = "Explorar disco c";
+            this.linkLabel3.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel3_LinkClicked);
             // 
             // Form1
             // 
